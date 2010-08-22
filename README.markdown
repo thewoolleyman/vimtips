@@ -9,7 +9,7 @@
 * set font
         :set guifont=*
         :set guifont?
-        :set guifont=Monaco:h21
+        :set guifont=Monaco:h21  (put in .gvimrc)
 
 * NERD tree
         :edit ~/
