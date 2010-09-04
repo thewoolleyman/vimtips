@@ -16,6 +16,8 @@
         :tabedit ~/
         Shift-A - zoom
         Shift-R - refresh root node
+        :NERDTree - reopen nerdtree
+        m - from nerdtree presents filesystem menu
 
 * split
         :split
@@ -30,3 +32,20 @@
         :b<n>
         :bn, :bN (next previous, maybe map to cmd-option-rightleft)
         :bd - delete current buffer from buffer list
+
+* Highlighting lines and indenting
+        vjjj>   - visual mode, highlight 3 lines, indent
+        v20G>    - visual mode, go to line 20, indent
+
+* view hex
+        :%!xxd
+
+* Ack
+        cmd-shift-F
+        --all to search all files
+
+
+scratch
+foo
+bar
+baz
